@@ -28,6 +28,7 @@ members = [
     "cairo/crates/cairo-lang-test-runner",
     "cairo/crates/cairo-lang-utils",
     "cairo/tests",
+    "cairo/crates/cairo-contracts", 
 ]
 
 [workspace.package]
@@ -90,3 +91,7 @@ toml = "0.4.2"
 tower-lsp = "0.17.0"
 unescaper = "0.1.1"
 xshell = "0.2.2"
+
+[dependencies.cairo-contracts]
+git = "https://github.com/OpenZeppelin/cairo-contracts.git"
+rev = "d86eb73879c0ae2ef30ab7762ea26235d6c425e6"
