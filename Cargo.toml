@@ -90,4 +90,3 @@ toml = "0.4.2"
 tower-lsp = "0.17.0"
 unescaper = "0.1.1"
 xshell = "0.2.2"
-openzeppelin = { git = "https://github.com/blahkheart/cairo-contracts.git", rev = "d86eb73879c0ae2ef30ab7762ea26235d6c425e6" }
